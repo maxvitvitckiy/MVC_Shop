@@ -20,6 +20,9 @@ namespace MVC_Shop
             this.item_name = item_name;
             count = 0;
         }
+        
+
+
         public Item(string item_name, int count)
         {
             this.item_name = item_name;

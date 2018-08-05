@@ -8,6 +8,7 @@ namespace MVC_Shop
 {
     class Controller
     {
+
         static public bool CheckItem(Person p, Item it)
         {
             if (p is Guest && it.Count <= 5) return false;
